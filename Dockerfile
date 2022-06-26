@@ -1,7 +1,7 @@
 # Dockerfile: strongswan
 # IKEv2 VPN Gateway using strongSwan.
 
-FROM		alpine:latest
+FROM        alpine:latest
 
 RUN         apk --update --no-cache add strongswan
 
